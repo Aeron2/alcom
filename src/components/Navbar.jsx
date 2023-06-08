@@ -1,7 +1,7 @@
 import { ggsipu_logo, alcom_logo } from "./images";
 function Navbar() {
   return (
-    <div className="hel z-50  px-8 !justify-between  py-2 border-b-2 border-slate-300 shadow-xl rounded-b-3xl fixed top-0  bg-white w-screen ">
+    <div className="hel px-8 !justify-between  py-2 border-b-2 border-slate-300 shadow-xl rounded-b-3xl fixed top-0  bg-white w-screen ">
       <div>
         {/* alcom logo */}
         <img src={alcom_logo} alt="alcom logo" className="h-20 cursor-pointer" />

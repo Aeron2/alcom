@@ -1,10 +1,11 @@
-import { Hero, Navbar } from "./components";
+import {AboutUs, Hero, Navbar} from "./components/index";
 
 export default function App() {
   return (
     <div className="font-public">
       <Navbar />
-      <Hero />
+      <AboutUs/>
+
     </div>
   )
 }
