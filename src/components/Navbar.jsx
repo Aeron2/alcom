@@ -5,7 +5,7 @@ function Navbar() {
     <div className="hel z-50 px-8  py-2 border-b-2  border-slate-300 shadow-xl rounded-b-3xl fixed top-0  bg-white w-screen ">
       <div>
         {/* alcom logo */}
-        <img src={alcom_logo} alt="alcom logo" className="h-20 cursor-pointer" />
+        <Link to ='/'> <img  src={alcom_logo} alt="alcom logo" className="h-20 cursor-pointer" /></Link>
       </div>
       <div className="ml-5">
         {/* linkds */}
