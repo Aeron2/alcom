@@ -1,10 +1,16 @@
-import { Hero, Navbar } from "./components";
+import { AboutUs, Hero, Homepage, Navbar } from "./components/index";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
     <div className="font-public">
-      <Navbar />
-      <Hero />
+      <Router>
+        <Navbar /> {/* Navbar rendered outside the Routes component */}
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+        </Routes>
+      </Router>
     </div>
-  )
+  );
 }
