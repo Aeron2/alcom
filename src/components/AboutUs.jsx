@@ -3,17 +3,36 @@ export default function AboutUs() {
   return (
 
     <>
-      <div className="bg-blue-200 border-4 flex-col border-purple-500 h-[1500px] py-28">
+      <div className=" flex flex-col bg-[#f1f3f6] border-4 border-purple-500 h-[1500px] py-28 items-center ">
 
-
-        <div className="heading text-6xl text-center font-bold">
+        {/* heading text */}
+        <div className="heading text-6xl text-center font-bold">    {/* column flex item1 */}
           About us
         </div>
 
+        <div className="container relative flex  h-[35%] w-1/2 justify-end  border-4  mt-16  left-[19rem] ">   {/* column flex item2 */}
 
-        <div className="container relative flex   h-fit w-3/4 justify-end  border-4 border-green-500 mt-16 left-96 ">
+          {/* description */}
+          <article className="relative w-72 h-[20rem]  bg-slate-400 rounded-lg right-24 top-16">   {/* row flex item1 */}
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt quia qui amet esse.
+            Impedit quod vitae laborum architecto debitis, sapiente eligendi repellat a repellendus
+            quisquam quos unde, odit laboriosam aperiam ipsa corrupti Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Earum officia culpa nihil rerum ipsam modi nisi tempore illum voluptatem? Enim s
+            ed quia voluptates! Corporis temporibus
+          </article>
 
-          <article className="relative w-96 h-[20rem] right-52 top-20">
+          {/* image */}
+
+          <div className="relative h-fit border-4   top-14">   {/* row flex item2 */}
+            <img src={alcom_logo} className="h-[20rem] w-[20 rem] " alt="" />
+          </div>
+        </div>
+
+
+        <div className="container relative flex  h-[35%] w-1/2 bg-[#f1f3f6]  justify-center border-4  mt-16 -left-[20%] ">   {/* column flex item3 */}
+
+          {/* description */}
+          <article className="relative w-72 h-[20rem] bg-slate-400 rounded-lg  top-12 -left-12">   {/* row flex item1 */}
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt quia qui amet esse.
             Impedit quod vitae laborum architecto debitis, sapiente eligendi repellat a repellendus
             quisquam quos unde, odit laboriosam aperiam ipsa corrupti Lorem ipsum dolor sit amet consectetur
@@ -21,8 +40,10 @@ export default function AboutUs() {
             ed quia voluptates! Corporis temporibus nesciunt unde minima aspernatur et.
           </article>
 
-          <div className="relative h-fit border-4 border-gray-800 right-9">
-            <img src={alcom_logo} className="h-[28rem] w-[35 rem] " alt="" />
+          {/* image */}
+
+          <div className="relative h-fit border-4  -right-16 top-12">   {/* row flex item2 */}
+            <img src={alcom_logo} className="h-[20rem] w-[20 rem] " alt="" />
           </div>
         </div>
       </div>
