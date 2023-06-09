@@ -7,7 +7,7 @@ export default function App() {
       <Router>
         <Navbar /> {/* Navbar rendered outside the Routes component */}
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route path="/" element={<Hero />} />
           <Route path="/AboutUs" element={<AboutUs />} />
         </Routes>
       </Router>
