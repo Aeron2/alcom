@@ -1,10 +1,10 @@
-import React from 'react'
+import Hero2 from './Hero2'
 
 export default function Homepage() {
 
   return (
-    <div className='mt-56'>
-      <h1>homepage</h1>
+    <div className='mt-18'>
+      <Hero2 />
     </div>
   )
 }
