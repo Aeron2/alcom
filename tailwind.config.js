@@ -5,6 +5,8 @@ export default {
     extend: {
       fontFamily: {
         public: ["Public Sans", "inter", "sans-serif"],
+        dancing: ["Dancing Script", "cursive", "sans-serif"],
+        heebo: ["Heebo", "cursive", "sans-serif"],
       },
     },
   },
